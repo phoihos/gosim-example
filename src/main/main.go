@@ -4,7 +4,11 @@ import (
 	"log"
 
 	"github.com/phoihos/gosim/database"
-	_ "github.com/phoihos/gosim/database/mssql"
+	_ "github.com/phoihos/gosim/database/postgres"
+
+	//_ "github.com/phoihos/gosim/database/mysql"
+	//_ "github.com/phoihos/gosim/database/mssql"
+
 	"github.com/phoihos/gosim/server"
 
 	_ "handler"
