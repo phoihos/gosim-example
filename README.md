@@ -16,8 +16,10 @@ You can learn more about **[Developing inside a Container with VSCode](https://a
 Follow these steps to open this project in a container:
 
 1. Clone this repository
-
+    >
+    ```
     git clone https://github.com/phoihos/gosim-example.git
+    ```
 
 2. Open VSCode.
 
@@ -28,7 +30,7 @@ Follow these steps to open this project in a container:
 
 5. Wait a while for Docker Image Download and Container Creation.
 
-6. Press <kbd>F5</kbd> key to launch this example webserver.
+6. Press <kbd>F5</kbd> key to launch example webserver.
 
 ## License
 
