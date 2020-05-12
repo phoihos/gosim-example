@@ -15,7 +15,7 @@ You can learn more about **[Developing inside a Container with VSCode](https://a
 
 Follow these steps to open this project in a container:
 
-1. Clone this repository
+1. Clone this repository.
     >
     ```
     git clone https://github.com/phoihos/gosim-example.git
