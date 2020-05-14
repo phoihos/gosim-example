@@ -17,7 +17,7 @@ Follow these steps to open this project in a container:
 
 1. Clone this repository.
     >
-    ```
+    ```shell
     git clone https://github.com/phoihos/gosim-example.git
     ```
 
@@ -31,6 +31,9 @@ Follow these steps to open this project in a container:
 5. Wait a while for Docker Image Download and Container Creation.
 
 6. Press <kbd>F5</kbd> key to launch example webserver.
+
+## Documentation
+- Guide for [.vscode/settings.json](.vscode/settings.json) : https://github.com/Microsoft/vscode-go/wiki/GOPATH-in-the-VS-Code-Go-extension
 
 ## License
 

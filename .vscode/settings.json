@@ -1,6 +1,7 @@
 {
     "go.useLanguageServer": true,
     "go.inferGopath": true,
+    "go.toolsGopath": "${env:GOPATH}:${workspaceFolder}",
     "terminal.integrated.env.linux": {
         "GOPATH": "${env:GOPATH}:${workspaceFolder}"
     }
