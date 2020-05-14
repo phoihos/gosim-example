@@ -33,7 +33,7 @@ Follow these steps to open this project in a container:
 6. Press <kbd>F5</kbd> key to launch example webserver.
 
 ## Documentation
-- Guide for [.vscode/settings.json](.vscode/settings.json) : https://github.com/Microsoft/vscode-go/wiki/GOPATH-in-the-VS-Code-Go-extension
+- Guide for GOPATH in [.vscode/settings.json](.vscode/settings.json) : https://github.com/Microsoft/vscode-go/wiki/GOPATH-in-the-VS-Code-Go-extension
 
 ## License
 
