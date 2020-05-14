@@ -33,9 +33,10 @@ func handleProducts(w http.ResponseWriter, r *http.Request) {
 	var results []product
 	db.Raw("select * form products").Scan(&results)
 
-	b, _ := json.Marshal(results)
-	jsonText := string(b)
-	io.WriteString(w, jsonText)
+	js, _ := json.Marshal(results)
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(js)
 }
 
 func init() {
